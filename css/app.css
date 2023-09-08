@@ -148,3 +148,67 @@
 .ex-12-button:hover .ex-12-bottom-white{
     animation: bottom-white-left 2s linear;
 }
+
+/* Esercizio 13 */
+
+@keyframes white-top-rotation-around {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    20%{
+        top: -10px;
+        left: calc(100% - (60px / 2));
+    }
+    40%{
+        top: 100%;
+        left: calc(100% - (60px / 2));
+    }
+    60%{
+        top: 100%;
+        left: 0;
+    }
+    80%{
+        left: -20px;
+        top: -10px;
+    }
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+}
+
+@keyframes white-bottom-rotation-around {
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+    20%{
+        bottom: -10px;
+        right: calc(100% - (60px / 2));
+    }
+    40%{
+        bottom: 100%;
+        right: calc(100% - (60px / 2));
+    }
+    60%{
+        bottom: 100%;
+        right: 0;
+    }
+    80%{
+        bottom: -10px;
+        right: -10px;
+    }
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: white-top-rotation-around 2s linear 2;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: white-bottom-rotation-around 2s linear 2;
+}
