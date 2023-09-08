@@ -98,3 +98,20 @@
 .ex-10-icon{
     animation: rotation 1s linear infinite;
 }
+
+/* Esercizio 11 */
+@keyframes rotate-and-back{
+    0%{
+        transform: rotate(0turn);
+    }
+    90%{
+        transform: rotate(0.85turn);
+    }
+    100%{
+        transform: rotate(0turn);
+    }
+}
+
+.ex-11-icon:hover{
+    animation: rotate-and-back 2s ease-in ;
+}
