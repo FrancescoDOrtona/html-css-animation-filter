@@ -51,9 +51,13 @@
 
 /* Esercizio 6 */
 
-.ex-6-img{
-    transition: 4s;
-}
 .ex-6-img:hover{
     filter: grayscale(1);
 }
+
+/* Esercizio 7 */
+
+
+
+/* Esercizio 8 */
+
