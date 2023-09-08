@@ -57,7 +57,14 @@
 
 /* Esercizio 7 */
 
+.ex-7-img{
+    transition: 4s;
+}
 
+.ex-7-img:hover{
+    filter: sepia(0.8);
+    filter: blur(0.8);
+}
 
 /* Esercizio 8 */
 
